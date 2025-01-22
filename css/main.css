@@ -1,0 +1,191 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6082B6;
+}
+/* estilos de header */
+
+header{
+    background-color: #4B61D1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding: 10px;
+}
+
+header img{
+    width: 5%;
+}
+
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    gap: 30px; 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+/* Estilos de Main */
+
+main{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 5px;
+
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* estilos de footer */
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.mb-3{
+   padding: 10px;
+   padding-left: 500px;
+   padding-right: 500px;
+   color: white; 
+}
+
+button{
+    color: white;
+    background-color: #6082B6;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Estilos de main con grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    width: 80%;
+    max-width: 800px;
+}
+
+.grid-item {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-uno {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilos de main con grid dos */
+
+.h1-dos{
+    margin-top: 20px;
+}
+
+
+.grid-container-dos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas del mismo tamaño */
+    gap: 15px; /* Espacio entre columnas */
+    width: 90%;
+    padding-left: 150px;
+    margin-top: 40px;
+}
+
+.grid-item-dos {
+    background-color: #ff9800; /* Color naranja */
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.p-tres{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.h3-contactos{
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;                /* Activa Flexbox */
+    flex-wrap: wrap;              /* Permite que los elementos se ajusten automáticamente */
+    gap: 20px;                    /* Espaciado entre columnas */
+    padding: 20px;
+    max-width: 1200px;            /* Limita el ancho máximo del contenedor */
+    margin: 0 auto;               /* Centra el contenedor */
+  }
+  
+  /* Estilo de las columnas */
+  .column {
+    flex: 1 1 calc(50% - 20px);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;           
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .column img {
+    width: 30%;                  
+    height: auto;                 
+    display: block;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .column h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .column p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .column header section main {
+      flex: 1 1 100%;            
+    }
