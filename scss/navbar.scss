@@ -1,0 +1,13 @@
+@use "variables" as v;
+
+.navbar {
+    background-color: v.$primary-color !important;
+    
+    .navbar-brand, .nav-link {
+        color:gray;
+        
+        &:hover {
+            color: black ;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@use "variables" as v;
+
+header {
+    background: v.$primary-color;
+    color: v.$text-color;
+    text-align: center;
+    padding: 20px 0;
+}

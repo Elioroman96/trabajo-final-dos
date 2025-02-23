@@ -1,0 +1,17 @@
+@use "variables";
+@use "navbar"; 
+@use "main";
+@use "header";
+@use "footer";
+@use "contacto";
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}

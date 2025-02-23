@@ -1,0 +1,47 @@
+@use "variables" as v;
+
+main {
+    padding: 20px;
+    text-align: center;
+    
+    section {
+        margin-bottom: 20px;
+        background: v.$secondary-color;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+        h2 {
+            color: white;
+        }
+        
+        p{
+            color: white;
+        }
+         
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+}
+
+h3{
+    color: white !important;
+}
+
+.img-productos {
+    max-width: 65%;
+    height: auto;
+}
+
+.img-nosotros {
+    max-width: 90%;
+    height: auto;
+}
+
+.img-blog{
+    max-width: 70%;
+    height: auto;
+}

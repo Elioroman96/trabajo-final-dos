@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+footer {
+    background: v.$primary-color;
+    color: v.$text-color;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    animation: slideUp 1s ease-in-out;
+}
